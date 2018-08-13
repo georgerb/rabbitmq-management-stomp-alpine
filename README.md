@@ -7,7 +7,7 @@ Altough this repository won't be updated very often, the Docker image is configu
 ## Sample Usage
 
 ```shel
-$ docker run -d --name rabbitmq-stomp -p 5672:5672 -p 15672:15672 -p 61613:61613 georgerb/3-management-stomp-alpine
+$ docker run -d --name rabbitmq-stomp -p 5672:5672 -p 15672:15672 -p 61613:61613 jorgemarizan/rabbitmq-management-stomp-alpine
 ```
 
 
